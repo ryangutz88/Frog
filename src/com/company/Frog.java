@@ -1,3 +1,5 @@
+package com.company;
+
 public class Frog {
     private String name;
     private int xPos;
@@ -85,7 +87,7 @@ public class Frog {
 
 
         Frog f3 = new Frog("Frank", -2,0);
-        f3.jump();
+        f3.jump(19);
         // TODO uncomment these to test new code.
         f3.jump(2);
         f1.visit(f3);
